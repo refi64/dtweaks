@@ -1,0 +1,11 @@
+[Trigger]
+Type = File
+Operation = Install
+Operation = Upgrade
+Target = usr/share/applications/*
+
+[Action]
+Description = Running dtweaks modifications...
+When = PostTransaction
+Exec = /usr/bin/dtweaks -i
+NeedsTargets

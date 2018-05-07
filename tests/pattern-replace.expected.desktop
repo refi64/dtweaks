@@ -1,0 +1,4 @@
+[section]
+a=string-a string-a
+b=stringb string-b
+c=$string-c$

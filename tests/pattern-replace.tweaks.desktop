@@ -1,0 +1,5 @@
+[section]
+a=$* ${*}
+b=${1}${invalid}ing$letter $*
+b$=(str)(?<s>ing)-(?<letter>\w)
+c=$$$*$$
